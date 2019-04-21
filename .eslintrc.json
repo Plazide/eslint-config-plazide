@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": false,
+        "browser": true,
         "commonjs": true,
         "es6": true
     },
@@ -17,12 +17,15 @@
 		"semi": ["error", "always"],
 		"quotes": ["error", "double"],
 		"curly": ["error", "multi", "consistent"],
+		"space-in-parens": "off",
 		"space-before-function-paren": ["error", "never"],
 		"space-before-blocks": ["error", {"functions": "never"}],
 		"keyword-spacing": ["error", {"before": true, "after": false, "overrides": {
+			"import": {"after": true},
 			"from": {"after": true},
 			"await": {"after": true},
-			"else": {"before": false}
+			"else": {"before": false},
+			"catch": {"before": false}
 		}}],
 		"indent": ["error", "tab"],
 		"no-tabs": "off",
