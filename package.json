@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-plazide",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is my ESLint config. I like it.",
   "main": "index.js",
   "devDependencies": {
