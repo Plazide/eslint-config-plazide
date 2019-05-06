@@ -25,7 +25,8 @@
 			"from": {"after": true},
 			"await": {"after": true},
 			"else": {"before": false},
-			"catch": {"before": false}
+			"catch": {"before": false},
+			"case": {"after": true}
 		}}],
 		"indent": ["error", "tab"],
 		"no-tabs": "off",
