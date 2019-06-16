@@ -24,6 +24,7 @@
 			"import": {"after": true},
 			"from": {"after": true},
 			"await": {"after": true},
+			"async": {"after": true},
 			"else": {"before": false},
 			"catch": {"before": false},
 			"case": {"after": true}
