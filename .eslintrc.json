@@ -18,7 +18,9 @@
 		"quotes": ["error", "double"],
 		"curly": ["error", "multi", "consistent"],
 		"space-in-parens": "off",
-		"space-before-function-paren": ["error", "never"],
+		"space-before-function-paren": ["error", {
+			"asyncArrow": "always"
+		}],
 		"space-before-blocks": ["error", {"functions": "never"}],
 		"keyword-spacing": ["error", {"before": true, "after": false, "overrides": {
 			"import": {"after": true},
